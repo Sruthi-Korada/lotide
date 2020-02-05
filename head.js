@@ -1,4 +1,3 @@
-const assertEqual = require('./assertEqual')
 const head = function (array) {
     return array[0];
 };
@@ -6,7 +5,6 @@ const head = function (array) {
 assertEqual(head([5, 6, 7]), 5);
 assertEqual(head(["Hello", "Lighthouse", "Labs"]), "Hello");
 
-module.exports = head;
 
 assertEqual("Lighthouse Labs", "Bootcamp");
 assertEqual(1, 1);
