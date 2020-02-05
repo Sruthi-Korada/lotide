@@ -6,7 +6,7 @@ const assertArraysEqual = function(array1, array2) {
     }
   };
   
-  module.exports = assertArraysEqual;
+ 
     
   const eqArrays = function(array1, array2) {
       if (array1.length !== array2.length) {
@@ -25,7 +25,7 @@ const assertArraysEqual = function(array1, array2) {
       return true;
     };
     
-    module.exports = eqArrays;
+    
 
     const flatten = function(array){
         let output = [];
@@ -43,5 +43,5 @@ const assertArraysEqual = function(array1, array2) {
         return output;
     }
 
-    module.exports = flatten;
+    
     console.log(flatten([1, 2, [3, 4], 5, [6]])) // => [1, 2, 3, 4, 5, 6]
