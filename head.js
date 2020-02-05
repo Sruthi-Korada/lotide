@@ -1,8 +1,8 @@
-var array = [];
-var num = 0;
-var assertEqual = function head (array , num){
-    
-   var array = array[i];
+
+var assertEqual = function(actual, expected){
+ var head = function (array ,num){
+
+  
   while (i = 0){
       if (array [i] === num){
           console.log ("true");
@@ -11,6 +11,7 @@ var assertEqual = function head (array , num){
           console.log('fail');
       }
   }
+}
 }
     
         assertEqual(head([5,6,7]), 5);
