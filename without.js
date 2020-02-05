@@ -6,7 +6,7 @@ const assertArraysEqual = function(array1, array2) {
   }
 };
 
-module.exports = assertArraysEqual;
+
   
 const eqArrays = function(array1, array2) {
     if (array1.length !== array2.length) {
@@ -25,7 +25,6 @@ const eqArrays = function(array1, array2) {
     return true;
   };
   
-  module.exports = eqArrays;
   const without = function(source, itemsToRemove) {
 
     let returnArr = [];
