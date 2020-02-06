@@ -10,3 +10,5 @@ const tail = function(arr) {
   return arrTail;
 };
 
+const result = tail(["Hello", "Lighthouse", "Labs"]);
+assertEqual(result, ["Lighthouse", "Labs"])
