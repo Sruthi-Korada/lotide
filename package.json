@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": " @sruthikorada/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "lotide, fun , assertation , lighthouselabs lotide gist ",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -18,7 +18,7 @@
     "type": "git",
     "url": "git+https://github.com/Sruthikorada36/lotide.git"
   },
-  "author": "",
+  "author": "sruthi korada",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Sruthikorada36/lotide/issues"
